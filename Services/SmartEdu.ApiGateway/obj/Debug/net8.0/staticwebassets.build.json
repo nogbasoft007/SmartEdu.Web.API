@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "30MsBS6Ln0SBw3sNU6B2l9r3M0J5ERCpx2SjZpa9mZ8=",
+  "Source": "SmartEdu.ApiGateway",
+  "BasePath": "_content/SmartEdu.ApiGateway",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

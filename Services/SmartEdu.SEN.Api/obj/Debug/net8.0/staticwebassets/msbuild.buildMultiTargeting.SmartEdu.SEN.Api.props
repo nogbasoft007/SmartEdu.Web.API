@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\SmartEdu.SEN.Api.props" />
+</Project>

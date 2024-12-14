@@ -1,0 +1,31 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/students",
+      "DownstreamScheme": "http", // Changed to HTTP for testing
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7294 // Ensure this is the correct port for your downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/students",
+      "UpstreamHttpMethod": [ "GET", "POST", "PUT", "DELETE" ]
+    },
+    {
+      "DownstreamPathTemplate": "/api/students/{everything}",
+      "DownstreamScheme": "http", // Changed to HTTP for testing
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7294 // Ensure this is the correct port for your downstream service
+        }
+      ],
+      "UpstreamPathTemplate": "/api/students/{everything}",
+      "UpstreamHttpMethod": [ "GET", "PUT", "DELETE" ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "https://localhost:7123" // API Gateway base URL
+  }
+}

@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "GGLW81t73Hl1VMYoZchnG5bWh004EaT5EBVJITg8wds=",
+  "Source": "SmartEdu.SDT.Api",
+  "BasePath": "_content/SmartEdu.SDT.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
